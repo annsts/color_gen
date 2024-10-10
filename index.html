@@ -28,7 +28,14 @@
             </button>
         </div>
     </div>
+    <pwa-install 
+          manual-chrome="true" 
+          manifest-url="/color_gen/manifest.json" 
+          install-description="Install this app for a better experience!" 
+          icon="/color_gen/images/icon-192.png">
+    </pwa-install>
     <script src="/color_gen/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@khmyznikov/pwa-install@0.4.6/dist/pwa-install.bundle.min.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/color_gen/service-worker.js')
