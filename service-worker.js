@@ -1,11 +1,12 @@
 const CACHE_NAME = 'color-generator-cache-v1';
+const BASE_URL = '/color_gen';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/styles.css',
-    '/app.js',
-    '/images/icon-192.png',
-    '/images/icon-512.png'
+    `${BASE_URL}/`,
+    `${BASE_URL}/index.html`,
+    `${BASE_URL}/styles.css`,
+    `${BASE_URL}/app.js`,
+    `${BASE_URL}/images/icon-192.png`,
+    `${BASE_URL}/images/icon-512.png`
 ];
 
 self.addEventListener('install', (event) => {

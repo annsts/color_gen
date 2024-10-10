@@ -2,19 +2,19 @@
     "name": "Color Generator",
     "short_name": "ColorGen",
     "description": "PWA for generating color palettes",
-    "start_url": "/",
+    "start_url": "/color_gen/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#3B82F6",
     "icons": [
         {
-            "src": "/images/icon-192.png",
+            "src": "/color_gen/images/icon-192.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "/images/icon-512.png",
+            "src": "/color_gen/images/icon-512.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"
