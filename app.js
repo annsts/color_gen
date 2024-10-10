@@ -5,6 +5,7 @@ const addBtn = document.createElement('button');
 addBtn.style.display = 'none';
 
 window.addEventListener('beforeinstallprompt', (e) => {
+    console.log('beforeinstall');
     e.preventDefault();
     deferredPrompt = e;
     addBtn.style.display = 'block';
